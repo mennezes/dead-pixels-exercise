@@ -12,4 +12,4 @@ The time complexity of the algorithm is **O(V×H)** and the space complexity is 
 The project DeadPixels.Tests contains BDD tests with example data based on the requirements.
 
 # Remarks
-If we could change the data provided, we could decrease the complexity to **O(VxH)**. Currently, the algorithm keeps tracks of visited pixels in a matrix with equal size of the input. Alternatively, we could change the visited bad pixels to 0, as it is one of the conditions to backtrack. The time complexity would be the same, as calculations are only done on unvisited pixels.
+If we could change the data provided, we could decrease the complexity to **O(VxH)**. Currently, the algorithm keeps tracks of visited pixels in a matrix with equal size of the input. Alternatively, we could change the visited bad pixels to 0, as it is one of the conditions to backtrack and removing the need of keeping track of visited nodes. The time complexity would be the same, as calculations are only done on unvisited pixels.
